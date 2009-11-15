@@ -1,4 +1,19 @@
 **************************************
+Date: Sun Nov 15 21:37:21 CET 2009
+Author: stefan
+Tag: Carp_Ensure_1_24
+
+--------------------------------------
+Update of /home/stefan/vault/sm/Carp_Ensure
+In directory rosalu:/home/stefan/free/Carp_Ensure
+
+Modified Files:
+	Makefile.PL 
+
+--------------------------------------
+Log Message:
+Fixed a problem in `Makefile.PL` [rt.cpan.org #49555].
+**************************************
 Date: Sun Jan 20 11:41:18 MET 2002
 Author: stefan
 Tag: Carp_Ensure_1_23

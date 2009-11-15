@@ -23,7 +23,7 @@ use Carp;
 
 require Exporter;
 
-$VERSION = '$Name: Carp_Ensure_1_23 $' =~ /_(\d+)_(\d+)\b/ && sprintf("%d.%02d", $1 - 1, $2);
+$VERSION = '$Name:  $' =~ /_(\d+)_(\d+)\b/ && sprintf("%d.%02d", $1 - 1, $2);
 
 @ISA = qw( Exporter );
 

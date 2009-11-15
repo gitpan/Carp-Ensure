@@ -13,7 +13,7 @@ my $cvsVersion = sprintf("%d.%02d", $3 - 1, $4);
 
 WriteMakefile(
     NAME	=> 'Carp::Ensure',
-    VERSION	=> '$(MY_CVSVERSION)',
+    VERSION	=> $cvsVersion,
     depend	=> { Makefile => $tagFile },
     macro	=> { MY_CVSMODULE => $cvsModule,
 		     MY_CVSVERSION => $cvsVersion,
